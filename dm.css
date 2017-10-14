@@ -1,5 +1,5 @@
 * {
-  font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif !important;
+  font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -30,7 +30,11 @@ body {
 
 .title-bar-container-logo {
   width: 10%;
-  padding-top: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.title-bar-container-logo a {
   text-decoration: none;
 }
 
